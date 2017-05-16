@@ -1,0 +1,53 @@
+* {
+
+}
+
+h1, h2 {
+	text-align: cente r;
+	font-family: Helvetica;
+}
+
+header{
+	text-align: left; 
+	margin-top: 20px;	
+}
+
+body {
+	text-align: center;
+	font-family: Helvetica; 		
+}
+
+p{
+	font-family: Helvetica;
+	font-size: 22px;
+}
+
+hr{
+	width:200px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+nav a {
+	color: black;
+	font-weight: normal;
+	font-size: 12px;
+	
+
+
+
+}
+
+img {
+	width: 50%
+}
+
+footer {
+	margin-top; 20px; 
+	padding: 40px; 
+	font-weight: bold;
+
+}
