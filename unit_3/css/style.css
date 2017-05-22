@@ -6,17 +6,13 @@ body {
 	text-align: center;
 	font-family: 'Roboto Slab', serif;
 	font-size: 20px;
-	margin: 100px;
+	margin: 80px;
 	line-height: 1.5em;
 	
-
 }
-header{
+header {
 	text-align: center; 
-	margin-top: 20px;
-}
-
-h1, h2, h3 {
+	margin: 20px;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;	
 }
@@ -24,24 +20,15 @@ h1, h2, h3 {
 	margin: 2em; auto; 
 	text-align: center; 
 }
-hr{
-	border: none;
-	height; 3px;
-	background: gray; 
-}
-
 a {
 	color: black;
 	font-weight: bold;
 	font-size: 24px;
 }
-
 img {
 	width: 50%
 }
-
 footer {
 	font-weight: bold;
 	margin: 16px;
-
 }
