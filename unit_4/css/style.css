@@ -1,14 +1,14 @@
-html, body {
+*{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 body {
 	text-align: center;
 	font-family: 'Roboto Slab', serif;
 	font-size: 20px;
 	margin: 80px;
-	line-height: 1.5em;
-	
+	line-height: 1.5em;	
 }
 header {
 	text-align: center; 
@@ -18,7 +18,8 @@ header {
 }
 .word {
 	margin: 2em; auto; 
-	text-align: center; 
+	text-align: center;
+	line-height: 1.75em;
 }
 a {
 	color: black;
