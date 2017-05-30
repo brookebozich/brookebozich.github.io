@@ -7,7 +7,6 @@ body {
 	text-align: center;
 	font-family: 'Roboto Slab', serif;
 	font-size: 20px;
-	margin: 80px;
 	line-height: 1.5em;	
 }
 p {
@@ -16,12 +15,13 @@ p {
 }
 header {
 	text-align: center; 
-	margin: 20px;
+	margin: 3em;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;	
 	line-height: 2em;
 	font-size: 100%;
 	border-bottom: 4px solid black;
+	background-color: #FFED74;
 }
 h2{
 	line-height: 4em;
@@ -35,11 +35,22 @@ a {
 nav{
 	text-align: center;
 	padding: 0;
+	background-color: #E8C66A;
 }
 
 footer {
 	font-weight: bold;
 	margin: 16px;
+	background-color: #FF957E;
+}
+img {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+}
+section {
+	background-color: #FFE2B8;
 }
 .navlinks {
 	letter-spacing: 2px;
@@ -48,14 +59,12 @@ footer {
 	font-size: 1em;
 	margin: 0 auto;
 }
-.word {
+.article {
 	margin: 2em; auto; 
 	text-align: center;
 	line-height: 1.75em;
+	background-color; #E89C6C;
 }
-img {
-	display: block;
-	margin: 0 auto;
-	width: 75%;
-	height: 75%;
+.photo1{
+	background-color: #FFE2B8;
 }
