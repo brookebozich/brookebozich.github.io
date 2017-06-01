@@ -7,25 +7,26 @@ body {
 	text-align: center;
 	font-family: 'Roboto Slab', serif;
 	font-size: 20px;
-	line-height: ;	
 }
 p {
-	padding: .5em;
-	margin:;
+	padding: 1em;
+	margin: 1em;
+	line-height: 1.5em;
+	background-color: #E89C6C;
 }
 header {
 	text-align: center; 
-	margin: ;
+	margin:1em;
 	padding: 1em;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;	
-	line-height: 3em;
+	line-height: 2em;
 	font-size: 100%;
 	border-bottom: 4px solid black;
 	background-color: #FFED74;
 }
 h2{
-	line-height: 4em;
+	line-height: 2em;
 	font-size: 100%;
 }
 a {
@@ -38,7 +39,13 @@ nav{
 	padding: 0;
 	background-color: #E8C66A;
 }
-
+article {
+	text-align: center;
+	line-height: 1em;
+	margin: .5em; 
+	padding: 2em;
+	background-color; #E89C6C;
+}
 footer {
 	font-weight: bold;
 	margin: 16px;
@@ -50,9 +57,6 @@ img {
 	width: 50%;
 	height: 50%;
 }
-section {
-	background-color: #FFE2B8;
-}
 .navlinks {
 	letter-spacing: 2px;
 	font-family: 'Montserrat', sans-serif;
@@ -60,13 +64,9 @@ section {
 	font-size: 1em;
 	margin: 0 auto;
 }
-.article {
-	text-align: center;
-	line-height: 1.75em;
-	background-color; #E89C6C;
-	margin: 3em; 
-	padding:1em;
+.photo1 {
+	background-color: #E89C6C;
 }
-.photo1{
-	background-color: #FFE2B8;
+.photo2 {
+	background-color: #E89C6C;;
 }
