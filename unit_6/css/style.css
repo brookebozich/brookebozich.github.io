@@ -71,7 +71,6 @@ img {
 	padding: 2%;
 	float: right;
 	width: 54%;
-	border-bottom-width: 0px;
 }
 .clearfix:after {
 	visibility: hidden;
