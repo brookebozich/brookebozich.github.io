@@ -63,11 +63,9 @@ img {
 	width: 70%;
 }
 #column1 {
-	border: 1px black solid;
 	padding: 2%;
 	float: left;
 	width: 46%;
-	border-bottom-width: 0px;
 }
 #column2 {
 	border: 1px black solid;
