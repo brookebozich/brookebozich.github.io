@@ -42,7 +42,7 @@ footer {
 }
 img {
 	width: 100%;
-	/*height: 50%;*/
+	height: 50%;
 }
 .navlinks {
 	letter-spacing: .15em;
@@ -54,7 +54,7 @@ img {
 #photo1 {
 	padding: 2em;
 	float: left;
-	width: 80%;
+	/*width: 80%;*/
 }
 #column1 {
 	padding: 1%;
@@ -79,7 +79,7 @@ img {
 	clear: both;
 	height: 05
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
 	#column1 {
 		float: none;
 		width: auto;
