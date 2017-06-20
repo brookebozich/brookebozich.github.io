@@ -54,7 +54,6 @@ img {
 #photo1 {
 	padding: 2em;
 	float: left;
-	/*width: 80%;*/
 }
 #column1 {
 	padding: 1%;
@@ -121,8 +120,5 @@ img {
 	}
 	body {
 		font-size: 1em;
-	}
-	p {
-
 	}
 }
