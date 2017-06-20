@@ -45,8 +45,8 @@ img {
 	height: 50%;
 }
 #wrapper {
-	width: auto;
-	margin: none;
+	width: 100%;
+	height: 100%;
 }
 .navlinks {
 	letter-spacing: .15em;
