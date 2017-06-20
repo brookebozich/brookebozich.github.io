@@ -44,6 +44,10 @@ img {
 	width: 100%;
 	height: 50%;
 }
+#wrapper {
+	width: auto;
+	margin: none;
+}
 .navlinks {
 	letter-spacing: .15em;
 	font-family: 'Montserrat', sans-serif;
