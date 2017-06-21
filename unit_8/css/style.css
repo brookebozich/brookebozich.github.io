@@ -13,11 +13,10 @@ p {
 }
 header {
 	text-align: center; 
-	padding: 1em;
+	padding: 2%;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;	
 	line-height: 2em;
-	font-size: 100%;
 	border-bottom: 4px solid black;
 	width: 100%;
 }
@@ -34,12 +33,14 @@ nav{
 	text-align: center;
 	padding: 2em;
 	background-color: #E8C66A;
+	width: 100%;
 }
 footer {
 	font-weight: bold;
-	margin: 2em;
-	padding: 2.25em;
+	margin: 2;
+	padding: 4%;
 	clear: both;
+	width: 100%;
 }
 img {
 	width: 100%;
@@ -51,9 +52,10 @@ img {
 	padding: 2em;
 	font-size: 1em;
 	margin: 0 auto;
+	width: 100%;
 }
 #photo1 {
-	padding: 2em;
+	padding: 32%;
 	float: left;
 }
 #column1 {
@@ -81,15 +83,15 @@ img {
 @media only screen and (max-width: 800px) {
 	#column1 {
 		float: none;
-		width: auto;
+		width: 100%;
 	}
 	#column2 {
 		float: none;
-		width: auto;
+		width: 100%;
 	}
 	#column3 {
 		float:none;
-		width: auto;
+		width: 100%;
 	}
 	.navlinks {
 		float: none;
@@ -98,8 +100,11 @@ img {
 	img {
 		width: 100%;
 	}
+	header { 
+		width: 100%;
+	 }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) {
 	.navlinks { 
 		float: none;
 		width: auto;
@@ -108,9 +113,9 @@ img {
 		width: 100%;
 	}
 	 h1 {
-	 	font-size: .5em;
+	 	font-size: 1.5em;
 	}
 	 h2 { 
-	 font-size: .5em; 
+	 font-size: 1em; 
 	}
 }
