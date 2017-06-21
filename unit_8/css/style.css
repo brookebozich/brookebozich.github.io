@@ -1,6 +1,6 @@
 *{
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
 body {
@@ -19,6 +19,7 @@ header {
 	line-height: 2em;
 	font-size: 100%;
 	border-bottom: 4px solid black;
+	width: 100%;
 }
 h2{
 	line-height: 2em;
@@ -45,7 +46,7 @@ img {
 	height: 50%;
 }
 .navlinks {
-	letter-spacing: .15em;
+	letter-spacing: .25em;
 	font-family: 'Montserrat', sans-serif;
 	padding: 2em;
 	font-size: 1em;
@@ -76,7 +77,6 @@ img {
 	font-size: 0;
 	content: " ";
 	clear: both;
-	height: 05
 }
 @media only screen and (max-width: 800px) {
 	#column1 {
@@ -96,29 +96,21 @@ img {
 		width: auto
 	}
 	img {
-		width: 80%;
+		width: 100%;
 	}
 }
 @media only screen and (max-width: 320px) {
 	.navlinks { 
 		float: none;
-		width: 10em;
+		width: auto;
 	}
 	img { 
 		width: 100%;
 	}
 	 h1 {
-	 	font-size: 1.5em;
+	 	font-size: .5em;
 	}
 	 h2 { 
-	 font-size: 1em; 
-	}
-	nav {
-		font-size: 1em;
-		padding: 1em;
-		float: none;
-	}
-	body {
-		font-size: 1em;
+	 font-size: .5em; 
 	}
 }
